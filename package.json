@@ -11,6 +11,7 @@
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "npm run build:lib && npm run build:dist && npm run build:css",
+    "prepare": "npm run build",
     "build:lib": "tsc",
     "build:dist": "webpack",
     "build:css": "cpx 'node_modules/quill/dist/quill.*.css' dist",
