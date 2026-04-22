@@ -45,7 +45,7 @@
   "dependencies": {
     "@types/quill": "^1.3.10",
     "lodash": "^4.17.4",
-    "quill": "git+https://github.com/One-Single-View/quill"
+    "quill": "^1.3.7"
   },
   "peerDependencies": {
     "react": "^16 || ^17 || ^18",
